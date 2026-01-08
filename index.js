@@ -1,11 +1,11 @@
 // Brebe introducción a JavaScript
 
-// const age=15
-// if (age>=18){
-//     console.log("Tu eres adulto")
-// }else{
-//     console.log("Tu eres niñp")
-// }
+const age=10
+if (age>=18){
+    console.log("Tu eres adulto")
+}else{
+    console.log("Tu eres niñp")
+}
 
 // const names=["Kevin","Yukiel","Corona","Ramos"]
 
@@ -34,3 +34,6 @@ const show3 = (userName,userAge)=>
 
 
 console.log(show("Kevin",21))
+
+
+

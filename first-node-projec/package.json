@@ -1,0 +1,25 @@
+{
+  "name": "fistproject",
+  "version": "0.0.1",
+  "description": "este es mi primer proyecto",
+  "keywords": [
+    "first",
+    "proyect",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "YukielCr",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js  #Esta es una aplicacion de nodejs",
+    "dev": "nodemon src/app.js  #Esta es una aplicacion de nodejs"
+  },
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
+
