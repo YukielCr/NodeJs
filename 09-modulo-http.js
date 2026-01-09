@@ -15,8 +15,12 @@ const server = http.createServer((request, response) => {
         <p>Esta es la PAgina Principal</p>
         <nav>
             <a href="/">Inicio</a>
+            <br>
             <a href="/about">Segunda Pagina </a>
+            <br>
             <a href="/sds">Tercera pagina de herror</a>
+            <br>
+            <a href="/hola">Tercera pagina de herror</a>
         </nav>
         `
         );
@@ -29,8 +33,12 @@ const server = http.createServer((request, response) => {
         <p>Esta es la segunda pagina</p>
         <nav>
             <a href="/">Inicio</a>
+            <br>
             <a href="/about">Segunda Pagina </a>
+            <br>
             <a href="/sds">Tercera pagina de herror</a>
+            <br>
+            <a href="/hola">Tercera pagina de herror</a>
         </nav>
         `);
         return response.end();
@@ -41,8 +49,12 @@ const server = http.createServer((request, response) => {
         <p>Esta es la tercera pagina</p>
         <nav>
             <a href="/">Inicio</a>
+            <br>
             <a href="/about">Segunda Pagina </a>
+            <br>
             <a href="/sds">Tercera pagina de herror</a>
+            <br>
+            <a href="/hola">Tercera pagina de herror</a>
         </nav>
         `);
         return response.end();
@@ -54,8 +66,12 @@ const server = http.createServer((request, response) => {
         <p>The page you are looking for does not exist</p>
         <nav>
             <a href="/">Inicio</a>
+            <br>
             <a href="/about">Segunda Pagina </a>
+            <br>
             <a href="/sds">Tercera pagina de herror</a>
+            <br>
+            <a href="/hola">Tercera pagina de herror</a>
         </nav>
         <p>Este es un comentario en la pagina Web</p>
         `);

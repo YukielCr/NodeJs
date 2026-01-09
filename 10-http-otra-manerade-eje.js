@@ -1,7 +1,5 @@
 
-
-
-
+// Otra manera de ejecutar un servidor HTTP en Node.js
 
 
 const http=require('http');
@@ -35,3 +33,5 @@ const server=http.createServer((req,res)=>{
 
 server.listen(3000)
 console.log('Servidor escuchando en el puerto 3000');
+
+// comando para comprobarlo 
