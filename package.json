@@ -1,11 +1,10 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.3.8",
-    "colors": "^1.4.0",
-    "dayjs": "^1.11.19",
-    "lodash": "^4.17.21",
-    "nodemon": "^3.1.11"
+  "scripts": {
+    "start": "node 08-Modulos-externos.js  #Esta es una aplicacion de nodejs",
+    "dev": "node 09-modulo-http.js  #Esta es una aplicacion de nodejs"
   },
-  "scripts": {}
+  "dependencies": {
+    "colors": "^1.4.0",
+    "http-server": "^14.1.1"
+  }
 }
-
